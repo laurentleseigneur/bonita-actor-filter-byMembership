@@ -164,5 +164,13 @@
                 <artifactId>maven-assembly-plugin</artifactId>
             </plugin>
         </plugins>
+
     </build>
+    <scm>
+        <url>https://github.com/laurentleseigneur/actorByMemberShip</url>
+        <connection>scm:git:${project.scm.url}.git</connection>
+        <developerConnection>scm:git:${project.scm.url}.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
